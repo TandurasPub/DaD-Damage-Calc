@@ -1,3 +1,5 @@
+#Wizard Damage calc for Hotfix 36 of Dark and Darker
+
 import numpy as np
 from scipy.stats import hypergeom 
 import matplotlib.pyplot as  plt
