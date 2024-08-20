@@ -1,7 +1,6 @@
 #Wizard Damage calc for Hotfix 36 of Dark and Darker
 
 import numpy as np
-from scipy.stats import hypergeom 
 import matplotlib.pyplot as  plt
 
 import tkinter
@@ -69,7 +68,7 @@ def generate_graph():
         spellHit = 1
         spellProj = 1
     elif spell == "Fireball (Splash)": 
-        spellDam = 10
+        spellDam = 15
         spellScale = 1
         spellBurn = 2
         spellHit = 1
