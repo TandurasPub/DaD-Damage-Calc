@@ -53,7 +53,7 @@ def generate_graph():
         spellDam = 11
         spellScale = 1
         spellBurn = 0 
-        spellHit = 9
+        spellHit = 10
         spellProj = 1
     elif spell == "Ice Bolt": 
         spellDam = 30 
