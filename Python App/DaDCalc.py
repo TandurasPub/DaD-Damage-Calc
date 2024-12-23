@@ -46,12 +46,12 @@ def generate_graph():
         canHS = 1
     elif spell == "Zap": 
         spellDam = 20
-        spellScale = 1
+        spellScale = 0.75
         spellBurn = 1
         spellHit = 1
     elif spell == "Magic Missile": 
         spellDam = 11
-        spellScale = 1
+        spellScale = 0.75
         spellBurn = 0 
         spellHit = 10
         spellProj = 1
@@ -211,9 +211,9 @@ spell_label.grid(row=4, column=0)
 spell_combobox.grid(row=4, column=1)
 
 #inserting defaults 
-book_entry.insert(0, 5)
+book_entry.insert(0, 4)
 add_entry.insert(0, 0)
-true_entry.insert(0, 11)
+true_entry.insert(0, 4)
 mpb_entry.insert(0, 22)
 spell_combobox.insert(0, "Zap")
 
